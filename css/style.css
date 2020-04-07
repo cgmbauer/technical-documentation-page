@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    font-size: 17px;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4f4;
+    color: black;
+    font-family: "Roboto", "Arial";
+    line-height: 1.5em;
+}
+
+.container {
+    width: 70%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: 20%;
+}
+
+.clr {
+    clear: both;
+}
+
+.outside {
+    margin: 0;
+    position: fixed;
+    min-width: 270px;
+    padding-top: 70px;
+    height: 100%;
+    background: transparent;
+}
+
+#navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-right: 1px solid black;
+}
+
+#navbar > header {
+    text-align: left;
+}
+
+#navbar > ul {
+    height: 88%;
+    padding: 0;
+    width: 100%;
+}
+
+#navbar > ul > li {
+    list-style: none;
+    padding: 5px;
+    border-top: 1px dotted black;
+}
+
+#navbar > ul > li > a {
+    text-decoration: none;
+}
+
+.header {
+    background-color: #c0c0c0;
+    width: 100%;
+    border-bottom: 3px solid black;
+    height: 70px;
+    box-sizing: border-box;
+}
+
+.header > img {
+    width: 150px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.header > p {
+    float: right;
+    margin-right: 15px;
+    font-weight: bold;
+    margin-top: 21px;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.blackbox {
+    background-color: black;
+    color: rgb(29, 139, 29);
+    padding: 6px;
+}
+
+code {
+    display: block;
+    margin-left: 8px;
+}
+
+a {
+    color: black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#reference {
+    margin-bottom: 4px;
+}

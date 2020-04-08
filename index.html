@@ -15,19 +15,41 @@
                     <h2>Python Index</h2>
                 </header>
                 <ul>
-                    <li><a href="#Python_Getting_Started">Python Getting Started</a></li>
-                    <li><a href="Python_Variables">Python Variables</a></li>
-                    <li><a href="Python_List">Python List</a></li>
-                    <li><a href="Python_Tuples">Python Tuples</a></li>
-                    <li><a href="Python_Dictionaries">Python Dictionaries</a></li>
-                    <li><a href="Python_While_Loops">Python While Loops</a></li>
-                    <li><a href="Python_For_Loops">Python For Loops</a></li>
-                    <li><a href="Python_Functions">Python Functions</a></li>
-                    <li><a href="Reference">Reference</a></li>
+                    <li><a href="#Python_Getting_Started" class="nav-link">Python Getting Started</a></li>
+                    <li><a href="#Python_Install">Python Install</a></li>
+                    <li><a href="#Python_Quickstart">Python Quickstart</a></li>
+                    <li><a href="#Python_Variables" class="nav-link">Python Variables</a></li>
+                    <li><a href="#Creating_Variables">Creating Variables</a></li>
+                    <li><a href="#Variable_Names">Variable Names</a></li>
+                    <li><a href="#Output_Variables">Output Variables</a></li>
+                    <li><a href="#Python_List" class="nav-link">Python List</a></li>
+                    <li><a href="#Python_Collections (Arrays)">Python Collections (Arrays)</a></li>
+                    <li><a href="#List">List</a></li>
+                    <li><a href="#Acess_Items">Acess Items</a></li>
+                    <li><a href="#Range_of_Indexes">Range of Indexes</a></li>
+                    <li><a href="#Change_Item_Value">Change Item Value</a></li>
+                    <li><a href="#List_Methods">List Methods</a></li>
+                    <li><a href="#Python_Tuples" class="nav-link">Python Tuples</a></li>
+                    <li><a href="#Tuple">Tuple</a></li>
+                    <li><a href="#Change_Tuple_Values">Change Tuple Values</a></li>
+                    <li><a href="#Python_Dictionaries" class="nav-link">Python Dictionaries</a></li>
+                    <li><a href="#Dictionary">Dictionary</a></li>
+                    <li><a href="#Accessing_Items">Accessing Items</a></li>
+                    <li><a href="#Python_While_Loops" class="nav-link">Python While Loops</a></li>
+                    <li><a href="#The_While_Loop">The While Loop</a></li>
+                    <li><a href="#The_else_Statement">The else Statement</a></li>
+                    <li><a href="#Python_For_Loops" class="nav-link">Python For Loops</a></li>
+                    <li><a href="#For_Loops">For Loops</a></li>
+                    <li><a href="#Else_in_For_Loop">Else in For Loops</a></li>
+                    <li><a href="#Python_Functions" class="nav-link">Python Functions</a></li>
+                    <li><a href="#Creating_a_Function">Creating a Function</a></li>
+                    <li><a href="#Calling_a_Function">Calling a Function</a></li>
+                    <li><a href="#Reference">Reference</a></li>
+                    <li><a href="#Disclaimer">Disclaimer</a></li>
                 </ul>
             </nav>
         </div>
-        
+          
         <header class="header"> 
             <img src="/img/python-logo-generic.svg" alt="Python logo">
             <p>A Very Basic Tutorial</p>
@@ -40,7 +62,7 @@
                         <h2>Python Getting Started</h2>
                     </header>
                     <hr>
-                    <h3> Python Install </h3>
+                    <h3 id="Python_Install"> Python Install </h3>
                     <p>Many PCs and Macs will have python already installed.</p>
                     <p>To check if you have python installed on a 
                         Windows PC, search in the start bar for Python 
@@ -58,7 +80,7 @@
                         your computer, then you can download it for free from 
                         the following website: 
                         <a href="https://www.python.org/" target="_blank">https://www.python.org/</a></p>
-                    <h3> Python Quickstart </h3>
+                    <h3 id="Python_Quickstart"> Python Quickstart </h3>
                     <p>Python is an interpreted programming language, this means
                          that as a developer you write Python (.py) files in a 
                          text editor and then put those files into the python
@@ -79,7 +101,7 @@
                         <h2>Python Variables</h2>
                     </header>
                     <hr>
-                    <h3> Creating Variables </h3>
+                    <h3 id="Creating_Variables"> Creating Variables </h3>
                     <p> Variables are containers for storing data values. </p>
                     <p> Unlike other programming languages, Python has no command 
                         for declaring a variable. </p>
@@ -94,7 +116,7 @@
                             </code>
                         </div>
                     </div>
-                    <h3> Variable Names </h3>
+                    <h3 id="Variable_Names"> Variable Names </h3>
                     <p> A variable can have a short name (like x and y) or a more 
                         descriptive name (age, carname, total_volume). Rules for 
                         Python variables: </p>
@@ -120,7 +142,7 @@
                             my-var = "John" <br>
                             my var = "John"</code>
                     </div>
-                    <h3> Output Variables </h3>
+                    <h3 id="Output_Variables"> Output Variables </h3>
                     <p> The Python print statement is often used to output variables.
                         <br>
                         To combine both text and a variable, Python uses the + character:</p>
@@ -143,7 +165,7 @@
                         <h2>Python List</h2>
                     </header>
                     <hr>
-                    <h3> Python Collections (Arrays) </h3>
+                    <h3 id="Python_Collections"> Python Collections (Arrays) </h3>
                     <p> There are four collection data types in the Python programming language: </p>
                     <ul>
                         <li>List is a collection which is ordered and changeable. Allows duplicate members.</li>
@@ -154,21 +176,21 @@
                     <p> When choosing a collection type, it is useful to understand the properties of that type. 
                         Choosing the right type for a particular data set could mean retention of meaning, and, it could mean an 
                         increase in efficiency or security. </p>
-                    <h3> List </h3>
+                    <h3 id="List"> List </h3>
                     <p> A list is a collection which is ordered and changeable. In Python lists are written with square brackets.</p>
                     <div class="blackbox">
                         <code> thislist = ["apple", "banana", "cherry"]
                             <br>
                             print(thislist)</code>
                     </div>
-                    <h3> Access Items </h3>
+                    <h3 id="Acess_Items"> Access Items </h3>
                     <p> You access the list items by referring to the index number: </p>
                     <div class="blackbox">
                         <code> thislist = ["apple", "banana", "cherry"]
                             <br>
                             print(thislist[1])</code>
                     </div>
-                    <h3> Range of Indexes </h3>
+                    <h3 id="Range_of_Indexes"> Range of Indexes </h3>
                     <p> You can specify a range of indexes by specifying where to start and where to end the range.
                         <br>
                         When specifying a range, the return value will be a new list with the specified items.</p>
@@ -178,7 +200,7 @@
                             print(thislist[2:5])</code>
                     </div>
                     <p>Remember that the first item has index 0.</p>
-                    <h3> Change Item Value </h3>
+                    <h3 id="Change_Item_Value"> Change Item Value </h3>
                     <p> To change the value of a specific item, refer to the index number: </p>
                     <div class="blackbox">
                         <code>thislist = ["apple", "banana", "cherry"]
@@ -187,7 +209,7 @@
                             <br>
                             print(thislist)</code>
                     </div>
-                    <h3> List Methods</h3>
+                    <h3 id="List_Methods"> List Methods </h3>
                     <p> Python has a set of built-in methods that you can use on lists. </p>
                     <table>
                         <tr>
@@ -241,14 +263,14 @@
                         <h2>Python Tuples</h2>
                     </header>
                     <hr>
-                    <h3> Tuple </h3>
+                    <h3 id="Tuple"> Tuple </h3>
                     <p> A tuple is a collection which is ordered and unchangeable. In Python tuples are written with round brackets. </p>
                     <div class="blackbox">
                         <code>thistuple = ("apple", "banana", "cherry")
                             <br>
                             print(thistuple)</code>
                     </div>
-                    <h3> Change Tuple Values </h3>
+                    <h3 id="Change_Tuple_Values"> Change Tuple Values </h3>
                     <p> Once a tuple is created, you cannot change its values. Tuples are unchangeable, or immutable as it also is called.
                         <br>
                         But there is a workaround. You can convert the tuple into a list, change the list, and convert the list back into a tuple.</p>
@@ -265,7 +287,7 @@
                         <h2> Python Dictionaries </h2>
                     </header>
                     <hr>
-                    <h3>Dictionary</h3>
+                    <h3 id="Dictionary">Dictionary</h3>
                     <p>A dictionary is a collection which is unordered, changeable and indexed. 
                         In Python dictionaries are written with curly brackets, and they have keys and values.</p>
                         <div class="blackbox">
@@ -276,12 +298,12 @@
                               }<br>
                               print(thisdict)</code>
                         </div>
-                    <h3>Accessing Items</h3>
+                    <h3 id="Accessing_Items">Accessing Items</h3>
                     <p>You can access the items of a dictionary by referring to its key name, inside square brackets:</p>
                     <div class="blackbox">
                         <code>x = thisdict["model"]</code>
                     </div>
-                    <h3>Change Values</h3>
+                    <h3 id="Change_Values">Change Values</h3>
                     <p>You can change the value of a specific item by referring to its key name:</p>
                     <div class="blackbox">
                         <code>thisdict = { <br>
@@ -297,7 +319,7 @@
                         <h2>Python While Loops</h2>
                     </header>
                     <hr>
-                    <h3>The While Loop</h3>
+                    <h3 id="The_While_Loop">The While Loop</h3>
                     <p>With the while loop we can execute a set of statements as long as a condition is true.</p>
                     <div class="blackbox">
                         <code>i = 1<br>
@@ -306,7 +328,7 @@
                               i += 1</code>
                     </div>
                     <p>Remember to increment i, or else the loop will continue forever.</p>
-                    <h3> The else Statement </h3>
+                    <h3 id="The_else_Statement"> The else Statement </h3>
                     <p>With the else statement we can run a block of code 
                         once when the condition no longer is true:</p>
                     <div class="blackbox">
@@ -323,7 +345,7 @@
                         <h2>Python For Loops</h2>
                     </header>
                     <hr>
-                    <h3>Python For Loops</h3>
+                    <h3 id="For_Loops">For Loops</h3>
                     <p>A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
                         <br>
                         This is less like the for keyword in other programming languages, and works more like an iterator method as found in other object-orientated programming languages.
@@ -334,7 +356,7 @@
                             for x in fruits:<br>
                               print(x)</code>
                     </div>
-                    <h3>Else in For Loop</h3>
+                    <h3 id="Else_in_For_Loop">Else in For Loop</h3>
                     <p>The else keyword in a for loop specifies a block of code to be executed when the loop is finished:</p>
                     <div class="blackbox">
                         <code>for x in range(6):<br>
@@ -348,7 +370,7 @@
                         <h2>Python Functions</h2>
                     </header>
                     <hr>
-                    <h3>Creating a Function</h3>
+                    <h3 id="Creating_a_Function">Creating a Function</h3>
                     <p>A function is a block of code which only runs when it is called.
                         <br>
                         You can pass data, known as parameters, into a function.
@@ -377,7 +399,7 @@
                     <ul>
                         <li>All the documentation in this page is taken from <a href="https://www.w3schools.com/python/default.asp"></a>w3school.com</li>
                     </ul>
-                    <h3>Disclaimer</h3>
+                    <h3 id="Disclaimer">Disclaimer</h3>
                     <p>The only purpose of this guide is to provide content to build up a technical documentation
                         page for the freeCodeCamp Curriculum. <br>
                         To get more informations about Python or other programming languages check <a href="https://www.w3schools.com/" target="_blank">w3shcool.com</a>
